@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>Ivan Khomych</title>
 <meta name="description" content="Ivan Khomych — Python Developer.">
 <link rel="icon" href="data:,">
@@ -17,6 +18,17 @@
     --text-dim: #6b7480;
     --amber: #e0a458;
     --teal: #8fb8b0;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f2efe8;
+      --panel-line: #d8d3c5;
+      --text: #1c1f24;
+      --text-dim: #5b6472;
+      --amber: #b8722c;
+      --teal: #2f7a70;
+    }
   }
 
   * { box-sizing: border-box; }
